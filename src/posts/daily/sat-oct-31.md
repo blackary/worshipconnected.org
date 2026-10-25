@@ -68,7 +68,7 @@ _112. What is the second petition?_
 
 Thy kingdom come.
 
-_What do we pray for in the second petition?_
+_113. What do we pray for in the second petition?_
 
 That the gospel may be preached in all the world, and believed and obeyed by us and all men.
 
