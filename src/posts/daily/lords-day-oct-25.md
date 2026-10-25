@@ -63,9 +63,9 @@ The daily readings in this household worship guide have a few questions. However
 
 ### Catechism
 
-<div><small><i>If desired, parents can work through the Shorter Catechism in a year, 2 questions a week most weeks.</i></small></div>
+<div><small><i>If desired, parents can work through the Shorter Catechism or Children's Catechism in a year, 2-3 questions a week most weeks.</i></small></div>
 
-WSC 88, 89
+WSC 88, 89; CC 108-109
 
 ### Praise (any or all)
 
