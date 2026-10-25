@@ -47,6 +47,10 @@ Psalm 118:15-25
 
 ### Catechism
 
+{%include "partials/catechism-picker.html" %}
+
+<div id="wsc">
+
 **WSC #90**
 
 _How is the Word to be read and heard, that it may become effectual to salvation?_
@@ -54,6 +58,22 @@ _How is the Word to be read and heard, that it may become effectual to salvation
 That the Word may become effectual to salvation, we must attend thereunto with diligence, preparation, and prayer; receive it with faith and love, lay it up in our hearts, and practice it in our lives.
 
 <div><small><i>(Proverbs 8:34; 1 Peter 2:1-2; Psalms 119:18; Hebrews 4:2; 2 Thessalonians 2:10; Psalms 119:11; Luke 8:15; James 1:25)</i></small></div>
+
+</div>
+
+<div id="childrens">
+
+**Children's Catechism 110-111**
+
+_110. What is the first petition?_
+
+Hallowed be thy name.
+
+_111. What do we pray for in the first petition?_
+
+That God’s name may be honored by us and all men.
+
+</div>
 
 ### Notes
 
