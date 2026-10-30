@@ -74,11 +74,11 @@ That God would give us all things needful for our bodies and souls.
 
 (See Saturday for authors.)	
 
-Again we see Jesus words working. Jesus went with his disciples in a boat to go to the other side of the lake (Lake Gennesaret, also known as the Sea of Galilee). Remember at least Peter, James, and John of Jesus’s disciples were experienced fishermen. They know this sea. Jesus went to sleep in the boat. But as they headed across the sea a great windstorm struck. God *spoke and raised a stormy wind that stirred up the waves of the sea* (Psalm 107:25). It terrified the disciples *and all their skill was useless* (Psalm 107:27).
+Again we see Jesus words working. Jesus went with his disciples in a boat to go to the other side of the lake (Lake Gennesaret, also known as the Sea of Galilee). Remember that of Jesus's disciples, at least Peter, James, and John were experienced fishermen. They knew this sea. Jesus went to sleep in the boat. But as they headed across the sea a great windstorm struck. God *spoke and raised a stormy wind that stirred up the waves of the sea* (Psalm 107:25). It terrified the disciples *and all their skill was useless* (Psalm 107:27).
 
-In a panic at least they remembered Who was with them. They woke Jesus up crying out, *we’re going to die*! Many years ago I remember hearing a preacher talk about this event imagining what it might have been like. He said something like, Jesus woke up, yawned and stretched, and said, *sea, be quiet*. Then, this pastor imagined Jesus said to His disciples, *I didn’t say, let’s get in the boat and drown in the middle of the lake, I said, let’s go to the other side*.
+In a panic, at least they remembered Who was with them. They woke Jesus up crying out, *we’re going to die*! Many years ago I remember hearing a preacher talk about this event imagining what it might have been like. He said something like, "Jesus woke up, yawned and stretched, and said, *sea, be quiet*." Then, this pastor imagined Jesus said to His disciples, *I didn’t say, let’s get in the boat and drown in the middle of the lake, I said, let’s go to the other side*.
 
-Jesus brings the storms and Jesus calms the storms—on the seas of our lives. Hughes reminds us that *storms are part of the process of spiritual growth. ... Storms are God’s way of bringing us into deeper grace*.
+Jesus brings the storms and Jesus calms the storms on the seas of our lives. Hughes reminds us that *storms are part of the process of spiritual growth. ... Storms are God’s way of bringing us into deeper grace*.
 
 When you experience the wind and the waves, remember Who commands even the wind and the waves, and they obey Him.
 
