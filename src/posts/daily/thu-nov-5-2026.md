@@ -74,9 +74,9 @@ That God would give us all things needful for our bodies and souls.
 
 (See Saturday for authors.)	
 
-Luke 8 emphasizes Jesus’s words. In fact we could safely say that all four gospel accounts of the life and ministry of Jesus emphasize Jesus’s words. In red-letter editions of the Bible (which I am not a fan of) about 20% of the gospels are red-letters, or Jesus’s direct words.
+Luke 8 emphasizes Jesus’s words. In fact, we could safely say that all four gospel accounts of the life and ministry of Jesus emphasize Jesus’s words. In red-letter editions of the Bible (which I am not a fan of) about 20% of the gospels are red-letters, or Jesus’s direct words.
 
-Here in our reading Jesus’s words come forth with a call to hear and listen. The Word is good news. Listen to the Word and bear fruit. The Word brings light. And those who hear the Word and do it (hold on to it, take it to heart, obey it, practice it) are identified as belonging to Jesus’s family. And, of course if you don’t hold on to it and do it you are not in Jesus’s family, or at least are not giving evidence of being part of Jesus’s family.
+Here in our reading, Jesus’s words come forth with a call to hear and listen. The Word is good news. Listen to the Word and bear fruit. The Word brings light. And those who hear the Word and do it (hold on to it, take it to heart, obey it, practice it) are identified as belonging to Jesus’s family. And of course if you don’t hold on to it and do it you are not in Jesus’s family, or at least are not giving evidence of being part of Jesus’s family.
 
 So, what do you do with the Words of Jesus—the Word of God? Does it get trampled underfoot and devoured by the birds—taken away by the devil? Does it grow for an instant and wither away—received with joy for a short time? Does it get choked out by thorns—the concerns and pleasures of the world? Or do you hold on to it, do it, and by enduring, produce fruit?
 
