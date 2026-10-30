@@ -78,11 +78,11 @@ God threatens to strike down all of Israel for their rebellion and make a new na
 
 God’s mercy results in His glory. What a glorious God we have who forgives sin and has provided a means for sinners to be made righteous!
 
-Yet, God’s judgment also results in His glory. What a glorious God we have who will by no means let the guilty get away with their sin, but who will destroy His enemies.
+Yet God’s judgment also results in His glory. What a glorious God we have who will by no means let the guilty get away with their sin, but who will destroy His enemies.
 
 Let us never forget both His mercy and His judgment result in His glory. Our God is not a “tame” God. He is not to be trifled with. So, God’s mercy and God’s judgment was shown in response to Moses’ prayer.
 
-Their children, whom the frightened Israelites were certain would be destroyed by the Canaanites, would enter the land. Joshua and Caleb, who had a different spirit and gave a God-trusting report, would enter the land. The rest of the people, aged twenty years and above, would wander in the wilderness for forty years – one year for each day the spies were in the land. And, in that wandering, they would die in the desert.
+The frightened Israelites were certain their children would be destroyed by the Canaanites, but they would enter the promised land. Joshua and Caleb, who had a different spirit and gave a God-trusting report, would enter the land, as well. The rest of the people, aged twenty years and above, would wander in the wilderness for forty years – one year for each day the spies were in the land. And in that wandering, they would die in the desert.
 
 ### Swedish Method questions
 
