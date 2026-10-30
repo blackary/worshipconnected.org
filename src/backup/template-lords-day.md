@@ -52,7 +52,7 @@ The daily readings in this household worship guide have a few questions. However
 
 <div><small><i>If desired, parents can work through the Shorter Catechism in a year, 2 questions a week most weeks.</i></small></div>
 
-WSC X, Y
+WSC X, Y; Children's X, Y
 
 ### Praise (any or all)
 
