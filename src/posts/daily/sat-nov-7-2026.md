@@ -76,7 +76,7 @@ That God would give us all things needful for our bodies and souls.
 
 Jesus keeps showing the power of His words. With a word He casts many demons out of a man who had been driven insane by them. With two words he raises a dead little girl to life. With His words He calls to a woman who was healed by touching His clothes and pronounces His peace on her.
 
-The man who had had demons, was restored to his right mind. He wanted to go with Jesus, but the people who lived in his community wanted Jesus to leave because they were afraid of Jesus’s power. Jesus told the man to stay and tell the people all that God had done for him. So he did—hearing Jesus’s words and doing them.
+The man who had had demons, was restored to his right mind. He wanted to go with Jesus, but the people who lived in his community wanted Jesus to leave because they were afraid of Jesus’s power. Jesus told the man to stay and tell the people all that God had done for him. So he did—hearing Jesus’s words, he did them.
 
 The family and friends of the dead girl didn’t believe Jesus could raise her from the dead. Jesus told them not to be afraid, but to believe. Jesus told her parents not to tell anyone what had happened. Bently suggests *He did this because he did not want any unhealthy publicity to interfere with the normal life of this growing girl, and he did not want anyone to proclaim him as the great deliverer. His time had not yet come*.
 
