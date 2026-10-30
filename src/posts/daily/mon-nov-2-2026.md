@@ -76,11 +76,11 @@ That men on earth may serve God as the angels do in heaven.
 
 Moses had asked to see God’s glory (Ex 33:18). Now God invites him back up to the mountain. Moses goes up the mountain with replacement stone tablets. There God meets him and reveals Himself to him. What will Moses see? Even protected from God’s full glory, what a magnificent image Moses would be sure to describe to us, right?
 
-Actually he tells us nothing about what God looks like. Instead God tells Him and us what He **is** like – which is more important by far. And what is God like?
+Actually, he tells us nothing about what God looks like. Instead, God tells Him and us what He **is** like – which is more important by far. And what is God like?
 
-God is a promise making and promise keeping God. Twice for emphasis He is identified as LORD. (All caps representing God’s covenant name by which he first revealed Himself to Moses.)  (Ex 3:14-15) And what is the glory of our covenant God? That He is compassionate and gracious, forgiving, longsuffering, and true.
+God is a promise-making and promise-keeping God. Twice for emphasis He is identified as LORD. (All caps representing God’s covenant name by which he first revealed Himself to Moses.)  (Ex 3:14-15) And what is the glory of our covenant God? That He is compassionate and gracious, forgiving, longsuffering, and true.
 
-God’s glory **is** His compassionate grace. That the Almighty God, maker of Heaven and Earth, would make a way for sinful people to be forgiven and bless them with His presence is a glorious wonder of our glorious God. Yet God’s just punishment on all who reject His Savior, is also to His glory. But none of us will want to see that.
+God’s glory **is** His compassionate grace. That the Almighty God, maker of Heaven and Earth, would make a way for sinful people to be forgiven and bless them with His presence is a glorious wonder of our glorious God. Yet God’s just punishment on all who reject His Savior is also to His glory. But none of us will want to see that.
 
 ### Swedish Method questions
 
