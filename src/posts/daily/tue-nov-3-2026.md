@@ -76,11 +76,11 @@ That men on earth may serve God as the angels do in heaven.
 
 John the Baptizer, in prison, is discouraged and wonders if Jesus is truly the promised Messiah. Surely if He is the Messiah, those who trust Him, like John did, will have life go well. Right?
 
-The Psalmist here is in a similar situation. He is desperately thirsting for God’s presence. He was probably wanting the presence of God with His people in worship. But, so far, his thirst was not quenched. His soul was downcast. Forced—or voluntary—separation from worship will often lead to downcast souls.
+The Psalmist here is in a similar situation. He is desperately thirsting for God’s presence. He was probably wanting the presence of God with His people in worship. But so far his thirst was not quenched. His soul was downcast. Forced or voluntary separation from worship will often lead to downcast souls.
 
 His troubles continue. Though he remembers and hopes for God’s care, he is not experiencing right now. Rather than being lifted up, he is drowning under the waves—God’s waves.
 
-Sometimes we are cast down, even depressed, yet we pretend. We pretend to each other, and we pretend to God. How silly we are! The Psalmist tells God just how he feels. Forgotten by God. Abandoned to his enemies who taunt him all day long. *Where is your God?* they scornfully say. *You wouldn’t be in this difficult condition if He cared about you.* And, our great Enemy, the Devil, says that to us whenever we face trouble.
+Sometimes we are cast down, even depressed, yet we pretend. We pretend to each other, and we pretend to God. How silly we are! The Psalmist tells God just how he feels. Forgotten by God. Abandoned to his enemies who taunt him all day long. *Where is your God?* they scornfully say. *You wouldn’t be in this difficult condition if He cared about you.* Our great Enemy, the Devil, says that to us whenever we face trouble.
 
 In his distress, the Psalmist talks back to himself. Instead of just listening to his soul, he calls his soul to listen up! And he reminds his soul that God is worth hoping in and praising—even when things go bad.
 
