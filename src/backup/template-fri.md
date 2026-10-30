@@ -40,13 +40,33 @@ delete above header if no optional reading
 
 ### Catechism
 
+{%include "partials/catechism-picker.html" %}
+
+<div id="wsc">
+
 **WSC #X**
 
 _Question text_
 
-Answer text
+Answer text.
 
 <div><small><i>(Prooftexts for catechism question)</i></small></div>
+
+</div>
+
+<div id="childrens">
+
+**Children's Catechism X-Y**
+
+_Question text_
+
+Answer text.
+
+_Question text_
+
+Answer text.
+
+</div>
 
 ### Notes
 
