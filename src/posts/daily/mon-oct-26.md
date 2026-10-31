@@ -49,7 +49,7 @@ Psalm 118:15-25
 
 {%include "partials/catechism-picker.html" %}
 
-{%include "partials/wsc-picker.html" %}
+
 
 <div id="wsc">
 
