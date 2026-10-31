@@ -1,0 +1,35 @@
+<div class="toggle2-checkbox-wrapper" id="toggle2-wrapper" hidden>
+  <input class="toggle2-checkbox" type="checkbox" id="toggle2">
+  <label class="slider" for="toggle2">
+    <span class="toggle2-switch opt1">Switch to Original Language</span>
+    <span class="toggle2-switch opt2">Switch to Modern English</span>
+  </label>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const wscmod = document.getElementById("wscmod");
+        const wsc = document.getElementById("wsc");
+        if (!wscmod || !wsc) return;
+        
+        // If both exist, unhide the toggle
+        document.getElementById('toggle2-wrapper').hidden = false;
+
+        const toggle2 = document.getElementById("toggle2");
+
+        function updateVisibility() {
+            wscmod.hidden = !toggle2.checked;
+            wsc.hidden = toggle2.checked;
+        }
+
+        // Set the state of the toggle based on localStorage, if it exists
+        toggle2.checked = localStorage.getItem('preferredWSC') === 'wscmod';
+        updateVisibility();
+
+        toggle2.addEventListener('change', () => { 
+            updateVisibility();
+            let preferredCatechism = toggle2.checked ? 'wscmod' : 'wsc';
+            localStorage.setItem('preferredWSC', preferredWSC);
+        });
+    });
+</script>
