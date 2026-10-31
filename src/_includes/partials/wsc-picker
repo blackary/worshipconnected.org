@@ -1,8 +1,8 @@
-<div class="toggle2-checkbox-wrapper" id="toggle2-wrapper" hidden>
-  <input class="toggle2-checkbox" type="checkbox" id="toggle2">
+<div class="toggle-checkbox-wrapper" id="toggle2-wrapper" hidden>
+  <input class="toggle-checkbox" type="checkbox" id="toggle2">
   <label class="slider" for="toggle2">
-    <span class="toggle2-switch opt1">Switch to Original Language</span>
-    <span class="toggle2-switch opt2">Switch to Modern English</span>
+    <span class="toggle-switch opt1">Switch to WSC Original Language</span>
+    <span class="toggle-switch opt2">Switch to WSC Modern English</span>
   </label>
 </div>
 
