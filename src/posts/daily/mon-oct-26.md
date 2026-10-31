@@ -49,6 +49,8 @@ Psalm 118:15-25
 
 {%include "partials/catechism-picker.html" %}
 
+{%include "partials/wsc-picker.html" %}
+
 <div id="wsc">
 
 **WSC #90**
@@ -58,6 +60,16 @@ _How is the Word to be read and heard, that it may become effectual to salvation
 That the Word may become effectual to salvation, we must attend thereunto with diligence, preparation, and prayer; receive it with faith and love, lay it up in our hearts, and practice it in our lives.
 
 <div><small><i>(Proverbs 8:34; 1 Peter 2:1-2; Psalms 119:18; Hebrews 4:2; 2 Thessalonians 2:10; Psalms 119:11; Luke 8:15; James 1:25)</i></small></div>
+
+</div>
+
+<div id="wscmod">
+
+**WSC #90**
+
+_How is the word to be read and heard in order to become effective for salvation?_
+
+For the word to become effective for salvation, we must pay careful attention to it, prepare ourselves, and pray for understanding. We must also receive it with faith and love, treasure it in our hearts, and practice it in our lives.
 
 </div>
 
