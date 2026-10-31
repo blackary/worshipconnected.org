@@ -28,7 +28,7 @@
 
         toggle2.addEventListener('change', () => { 
             updateVisibility();
-            let preferredCatechism = toggle2.checked ? 'wscmod' : 'wsc';
+            let preferredWSC = toggle2.checked ? 'wscmod' : 'wsc';
             localStorage.setItem('preferredWSC', preferredWSC);
         });
     });
