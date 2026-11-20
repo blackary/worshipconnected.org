@@ -18,3 +18,58 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // obtain parent-level containers for both catechisms
+        const childrens = document.getElementById("childrens");
+        const wsc = document.getElementById("wsc");
+
+        // within the wsc div, there are two children containers containing the old and modern wsc
+        const wscOld = document.getElementById("wsc-old");
+        const wscMod = document.getElementById("wsc-mod");
+
+        if (!childrens || !wsc) return;
+        
+        // If both exist, unhide the toggle
+        document.getElementById('toggle-wrapper').hidden = false;
+        
+        // toggle to switch between catechisms
+        const toggle = document.getElementById("toggle");
+        // toggle to switch between WSC old and WSC modern
+        const wscToggleContainer = document.getElementById("wsc-toggle-container")
+        const wscToggle = document.getElementById("wsc-toggle");
+
+        // updates visibility between WSC and Children's 
+        function updateVisibility() {
+            childrens.hidden = !toggle.checked;
+            wsc.hidden = toggle.checked;
+
+            wscToggleContainer.hidden = wsc.hidden;
+            console.log(`WSC toggle hidden: ${wscToggle.hidden}`);
+        }
+
+        // switches between WSC Old and WSC Modern English
+        function switchShorterCatechsim() {
+            wscOld.hidden = wscToggle.checked;
+            wscMod.hidden = !wscToggle.checked;
+        }
+
+        // Set the state of the toggle based on localStorage, if it exists
+        toggle.checked = localStorage.getItem('preferredCatechism') === 'childrens';
+        updateVisibility();
+        wscToggle.checked = localStorage.getItem("wscPreference") === "wsc-old";
+        switchShorterCatechsim();
+
+        toggle.addEventListener('change', () => { 
+            updateVisibility();
+            let preferredCatechism = toggle.checked ? 'childrens' : 'wsc';
+            localStorage.setItem('preferredCatechism', preferredCatechism);
+        });
+        wscToggle.addEventListener("change", () => {
+            switchShorterCatechsim()
+            const wscPreference = wscToggle.checked ? "wsc-old" : "wsc-mod";
+            localStorage.setItem("wscPreference", wscPreference);
+        })
+    });
+</script>

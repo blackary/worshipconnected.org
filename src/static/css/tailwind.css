@@ -143,7 +143,7 @@ body pre[class*="language-"] {
 
 /* Text animations */
 
-.wsc-box,
+/* .wsc-box,
 .childrens-box {
     transition:
         opacity 0.25s ease,
@@ -219,4 +219,4 @@ body:has(#wsc-toggle:checked) .wsc-mod-box {
     visibility: visible;
     transform: translateY(0);
     pointer-events: auto;
-}
+} */
