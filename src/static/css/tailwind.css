@@ -145,7 +145,6 @@ body pre[class*="language-"] {
 
 .wsc-box,
 .childrens-box {
-    grid-area: 1 / 1;
     transition:
         opacity 0.25s ease,
         transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
@@ -172,6 +171,7 @@ body:has(#toggle:checked) .wsc-box {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-6px);
+    height: 0;
     overflow: hidden;
     pointer-events: none;
 }
@@ -180,6 +180,7 @@ body:has(#toggle:checked) .childrens-box {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+    height: auto;
     overflow: visible;
     pointer-events: auto;
 }
