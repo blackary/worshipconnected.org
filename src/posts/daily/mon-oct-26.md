@@ -49,9 +49,9 @@ Psalm 118:15-25
 
 {%include "partials/catechism-picker.html" %}
 
-{%include "partials/wsc-picker.html" %}
+<div class="wsc-box" id="wsc">
 
-<div id="wsc">
+<div class="wsc-old-box" id="wsc-old">
 
 **WSC #90**
 
@@ -63,7 +63,7 @@ That the Word may become effectual to salvation, we must attend thereunto with d
 
 </div>
 
-<div id="wscmod">
+<div class="wsc-mod-box" id="wsc-mod">
 
 **WSC #90**
 
@@ -73,7 +73,9 @@ For the word to become effective for salvation, we must pay careful attention to
 
 </div>
 
-<div id="childrens">
+</div>
+
+<div class="childrens-box" id="childrens">
 
 **Children's Catechism 110-111**
 

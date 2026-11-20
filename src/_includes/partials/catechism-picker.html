@@ -1,35 +1,83 @@
 <div class="toggle-checkbox-wrapper" id="toggle-wrapper" hidden>
-  <input class="toggle-checkbox" type="checkbox" id="toggle">
-  <label class="slider" for="toggle">
-    <span class="toggle-switch opt1">Switch to Children's Catechism</span>
-    <span class="toggle-switch opt2">Switch to Westminister Shorter Catechism</span>
-  </label>
+    <div class="toggle-item top-toggle" id="catechsim-toggle-container">
+        <input class="toggle-checkbox" type="checkbox" id="toggle">
+        <label class="slider" for="toggle">
+          <span class="toggle-switch opt1">Switch to Children's Catechism</span>
+          <span class="toggle-switch opt2">Switch to Westminister Shorter Catechism</span>
+        </label>
+    </div>
+    <div class="drawer" id="wsc-toggle-container">
+        <div class="drawer-inner">
+            <div class="toggle-item secondary-toggle">
+                <input class="toggle-checkbox" type="checkbox" id="wsc-toggle">
+                <label class="slider" for="wsc-toggle">
+                  <span class="toggle-switch opt1">Use Modern English Westminster Shorter Catechism</span>
+                  <span class="toggle-switch opt2">Use Original English Westminster Shorter Catechism</span>
+                </label>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
+        // obtain parent-level containers for both catechisms
         const childrens = document.getElementById("childrens");
         const wsc = document.getElementById("wsc");
+
+        // within the wsc div, there are two children containers containing the old and modern wsc
+        const wscOld = document.getElementById("wsc-old");
+        const wscMod = document.getElementById("wsc-mod");
+
         if (!childrens || !wsc) return;
         
         // If both exist, unhide the toggle
         document.getElementById('toggle-wrapper').hidden = false;
-
+        
+        // toggle to switch between catechisms
         const toggle = document.getElementById("toggle");
+        // toggle to switch between WSC old and WSC modern
+        const wscToggleContainer = document.getElementById("wsc-toggle-container")
+        const wscToggle = document.getElementById("wsc-toggle");
 
+        let wscModPresent = true;
+
+        if (!wscMod) {
+            wscModPresent = false;
+        }
+
+        // updates visibility between WSC and Children's 
         function updateVisibility() {
             childrens.hidden = !toggle.checked;
             wsc.hidden = toggle.checked;
+
+            wscToggleContainer.hidden = wsc.hidden;
+        }
+
+        // switches between WSC Old and WSC Modern English
+        function switchShorterCatechsim() {
+            // need both versions of wsc present to do this
+            if (wscModPresent) {
+                wscOld.hidden = wscToggle.checked;
+                wscMod.hidden = !wscToggle.checked;
+            }
         }
 
         // Set the state of the toggle based on localStorage, if it exists
         toggle.checked = localStorage.getItem('preferredCatechism') === 'childrens';
         updateVisibility();
+        wscToggle.checked = localStorage.getItem("wscPreference") === "wsc-old";
+        switchShorterCatechsim();
 
         toggle.addEventListener('change', () => { 
             updateVisibility();
             let preferredCatechism = toggle.checked ? 'childrens' : 'wsc';
             localStorage.setItem('preferredCatechism', preferredCatechism);
         });
+        wscToggle.addEventListener("change", () => {
+            switchShorterCatechsim()
+            const wscPreference = wscToggle.checked ? "wsc-old" : "wsc-mod";
+            localStorage.setItem("wscPreference", wscPreference);
+        })
     });
 </script>

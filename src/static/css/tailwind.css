@@ -88,3 +88,140 @@ body pre[class*="language-"] {
 .toggle-checkbox:checked ~ .slider > .toggle-switch.opt2 {
   display: inline-block;
 }
+
+/* toggle styling and transitions */
+
+.toggle-checkbox-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    isolation: isolate;
+}
+
+.toggle-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+}
+
+.top-toggle {
+    position: relative;
+    z-index: 2;
+}
+
+.drawer {
+    display: grid;
+    grid-template-rows: 0fr;
+    position: relative;
+    z-index: 1;
+    transition: grid-template-rows 0.3s ease;
+}
+
+.drawer-inner {
+    overflow: hidden;
+    visibility: hidden;
+    transition: visibility 0.3s ease;
+}
+
+/* hide the wsc toggle if the modern version isn't present. */
+body:not(:has(#wsc-mod)) #wsc-toggle-container {
+  display: none;
+}
+
+/* for ACTIVE state */
+.toggle-checkbox-wrapper:has(#toggle:not(:checked)) .drawer {
+    grid-template-rows: 1fr;
+}
+
+.toggle-checkbox-wrapper:has(#toggle:not(:checked)) .drawer-inner {
+    visibility: visible;
+}
+
+.toggle-checkbox-wrapper:has(#toggle:not(:checked)) .secondary-toggle {
+    transform: translateY(0);
+}
+
+/* Text animations */
+
+/* .wsc-box,
+.childrens-box {
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+        visibility 0.25s;
+}
+
+.wsc-box {
+    display: grid;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.childrens-box {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6px);
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+body:has(#toggle:checked) .wsc-box {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+body:has(#toggle:checked) .childrens-box {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    height: auto;
+    overflow: visible;
+    pointer-events: auto;
+}
+
+.wsc-old-box,
+.wsc-mod-box {
+    grid-area: 1 / 1;
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+        visibility 0.25s;
+}
+
+.wsc-old-box {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.wsc-mod-box {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6px);
+    pointer-events: none;
+}
+
+body:has(#wsc-toggle:checked) .wsc-old-box {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    pointer-events: none;
+}
+
+body:has(#wsc-toggle:checked) .wsc-mod-box {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+} */
