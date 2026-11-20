@@ -640,50 +640,64 @@ Requirements:
 
 Use the catechism assignment specified in the Word document.
 
-Note that there are two catechism options: the Westminster Shorter Catechism and the Children's Catechism.
+Note that there are two catechism options: the Westminster Shorter Catechism and the Children's Catechism. Additionally, there is the original Westminster Shorter Catechism and the modern English version of the Westminster Shorter Catechism.
 
 You will find that the catechism section in the template includes a reference to a toggle between the choices of either of the two catechisms:
 
 ```md
-### Catechism
+## Catechism
 
 {%include "partials/catechism-picker.html" %}
 
-<div id="wsc">
+<div class="wsc-box" id="wsc">
 
-**WSC #X**
+<div class="wsc-old-box" id="wsc-old">
+
+**WSC #N**
 
 _Question text_
 
-Answer text.
+Answer text
 
-<div><small><i>(Prooftexts for catechism question)</i></small></div>
+<div><small><i>(semicolon-separated prooftexts)</i></small></div>
 
 </div>
 
-<div id="childrens">
+<div class="wsc-mod-box" id="wsc-mod">
+
+**WSC #N**
+
+_Question text_
+
+Answer text
+
+</div>
+
+</div>
+
+<div class="childrens-box" id="childrens">
 
 **Children's Catechism X-Y**
 
 _Question text_
 
-Answer text.
+Answer text
 
 _Question text_
 
-Answer text.
+Answer text
 
 </div>
 ```
 
-Retrieve the corresponding material from the Westminster Shorter Catechism and Children's Catechism, which are both included as an appendix to this prompt. Include:
+Retrieve the corresponding material from the Westminster Shorter Catechism, Westminster Shorter Catechism (modern English), and Children's Catechism, in that exact order. These are all included as an appendix to this prompt. Include:
 
 - Catechism number(s)
 - Complete question(s)
 - Complete answer(s)
 - Proof-text references
 
-Format the proof-text references as a semicolon-separated list. This will not be applicable for the Children's Catechism.
+Format the proof-text references as a semicolon-separated list. This will not be applicable for the Children's Catechism or the modern English WSC.
 
 Example:
 
@@ -1774,6 +1788,329 @@ Answer 107. The conclusion of the Lord’s Prayer, which is, For thine is the ki
 
 (Matt. 6:13; Dan. 9:4-9, 16-19; 1 Chron. 29:10-13; 1 Cor. 14:16; Rev. 22:20-21)
 
+## Westminster Shorter Catechism (Modern English)
+
+Question 1. What is man's primary purpose?
+Answer 1. Man's primary purpose is to glorify God, and to enjoy him forever.
+
+Question 2. What authority from God directs us how to glorify and enjoy Him?
+Answer 2. The only authority for glorifying and enjoying Him is the Bible, which is the word of God and is made up of the Old and New Testaments.
+
+Question 3. What does the Bible primarily teach?
+Answer 3. The Bible primarily teaches what man must believe about God and what God requires of man.
+
+Question 4. What is God?
+Answer 4. God is a spirit, Whose being, wisdom, power, holiness, justice, goodness, and truth are infinite, eternal, and unchangeable.
+
+Question 5. Is there more than one God?
+Answer 5. There is only one, the living and true God.
+
+Question 6. How many persons are in the one God?
+Answer 6. Three persons are in the one God, the Father, the Son, and the Holy Spirit. These three are one God, the same in substance and equal in power and glory.
+
+Question 7. What are the decrees of God?
+Answer 7. The decrees of God are his eternal plan, based on the purpose of His will, by which, for His own glory, He has foreordained everything that happens.
+
+Question 8. How does God carry out His decrees?
+Answer 8. God carries out His decrees in creation and providence.
+
+Question 9. What is creation?
+Answer 9. Creation is God's making everything out of nothing by His powerful word in six days - and all very good.
+
+Question 10. How did God create man?
+Answer 10. God created man, male and female, in His own image and in knowledge, righteousness, and holiness, to rule over the other creatures.
+
+Question 11. What is God's providence?
+Answer 11. God's providence is His completely holy, wise, and powerful preserving and governing every creature and every action.
+
+Question 12. What did God's providence specifically do for man whom He created?
+Answer 12. After the creation God made a covenant with man to give him life, if he perfectly obeyed; God told him not to eat from the tree of knowledge of good and evil or he would die.
+
+Question 13. Did our first parents remain as they were created?
+Answer 13. Left to the freedom of their own wills, our first parents sinned against God and fell from their original condition.
+
+Question 14. What is sin?
+Answer 14. Sin is disobeying or not conforming to God's law in any way.
+
+Question 15. By what sin did our first parents fall from their original condition?
+Answer 15. Our first parents' sin was eating the forbidden fruit.
+
+Question 16. Did all mankind fall in Adam's first disobedience?
+Answer 16. Since the covenant was made not only for Adam but also for his natural descendants, all mankind sinned in him and fell with him in his first disobedience.
+
+Question 17. What happened to man in the fall?
+Answer 17. Man fell into a condition of sin and misery.
+
+Question 18. What is sinful about man's fallen condition?
+Answer 18. The sinfulness of that fallen condition is twofold. First, in what is commonly called original sin, there is the guilt of Adam's first sin with its lack of original righteousness and the corruption of his whole nature. Second are all the specific acts of disobedience that come from original sin.
+
+Question 19. What is the misery of man's fallen condition?
+Answer 19. By their fall all mankind lost fellowship with God and brought His anger and curse on themselves. They are therefore subject to all the miseries of this life, to death itself, and to the pains of hell forever.
+
+Question 20. Did God leave all mankind to die in sin and misery?
+Answer 20. From all eternity and merely because it pleased Him God chose some to have everlasting life. These He freed from sin and misery by a covenant of grace and brought them to salvation by a redeemer.
+
+Question 21. Who is the redeemer of God's chosen ones?
+Answer 21. The only redeemer of God's chosen is the Lord Jesus Christ, the eternal Son of God, Who became man. He was and continues to be God and man in two distinct natures and one person forever.
+
+Question 22. How did Christ, the Son of God, become man?
+Answer 22. Christ, the Son of God, became man by assuming a real body and a reasoning soul. He was conceived by the power of the Holy Spirit in the womb of the Virgin Mary, who gave birth to Him; yet He was sinless.
+
+Question 23. How is Christ our redeemer?
+Answer 23. As our redeemer, Christ is a prophet, priest, and king in both His humiliation and His exaltation.
+
+Question 24. How is Christ a prophet?
+Answer 24. As a prophet, Christ reveals the will of God to us for our salvation by His word and Spirit.
+
+Question 25. How is Christ a priest?
+Answer 25. As a priest, Christ offered Himself up once as a sacrifice for us to satisfy divine justice and to reconcile us to God, and He continually intercedes for us.
+
+Question 26. How is Christ a king?
+Answer 26. As a king, Christ brings us under His power, rules and defends us, and restrains and conquers all His and all our enemies.
+
+Question 27. How was Christ humiliated?
+Answer 27. Christ was humiliated: by being born as a man and born into a poor family; by being made subject to the law and suffering the miseries of this life, the anger of God, and the curse of death on the cross; and by being buried and remaining under the power of death for a time.
+
+Question 28. How is Christ exalted?
+Answer 28. Christ is exalted by His rising from the dead on the third day, His going up into heaven, His sitting at the right hand of God the Father, and His coming to judge the world at the last day.
+
+Question 29. How are we made to take part in the redemption Christ bought?
+Answer 29. We take part in the redemption Christ bought when the Holy Spirit effectively applies it to us.
+
+Question 30. How does the Holy Spirit apply to us the redemption Christ bought?
+Answer 30. The Spirit applies to us the redemption Christ bought by producing faith in us and so uniting us to Christ in our effective calling.
+
+Question 31. What is effective calling?
+Answer 31. Effective calling is the work of God's Spirit, Who convinces us that we are sinful and miserable, Who enlightens our minds in the knowledge of Christ, and Who renews our wills. This is how He persuades and makes us able to receive Jesus Christ, Who is freely offered to us in the gospel.
+
+Question 32. What benefits do those who are effectively called share in this life?
+Answer 32. In this life those who are effectively called share justification, adoption, sanctification, and the other benefits that either go with or come from them.
+
+Question 33. What is justification?
+Answer 33. Justification is the act of God's free grace by which He pardons all our sins and accepts us as righteous in His sight. He does so only because He counts the righteousness of Christ as ours. Justification is received by faith alone.
+
+Question 34. What is adoption?
+Answer 34. Adoption is the act of God's free grace by which we become His sons with all the rights and privileges of being His.
+
+Question 35. What is sanctification?
+Answer 35. Sanctification is the work of God's free grace by which our whole person is made new in the image of God, and we are made more and more able to become dead to sin and alive to righteousness.
+
+Question 36. What benefits in this life go with or come from justification, adoption, and sanctification?
+Answer 36. The benefits that in this life go with or come from justification, adoption, and sanctification are: the assurance of God's love, peace of conscience, joy in the Holy Spirit, and growing and persevering in grace to the end of our lives.
+
+Question 37. What benefits do believers receive from Christ when they die?
+Answer 37. When believers die, their souls are made perfectly holy and immediately pass into glory. Their bodies, which are still united to Christ, rest in the grave until the resurrection.
+
+Question 38. What benefits do believers receive from Christ at the resurrection?
+Answer 38. At the resurrection, believers, raised in glory, will be publicly recognized and declared not guilty on the day of judgment and will be made completely happy in the full enjoyment of God forever.
+
+Question 39. What does God require of man?
+Answer 39. God requires man to obey His revealed will.
+
+Question 40. What rules did God first reveal for man to obey?
+Answer 40. The rules He first revealed were the moral law.
+
+Question 41. Where is the moral law summarized?
+Answer 41. The moral law is summarized in the ten commandments.
+
+Question 42. What is the essence of the ten commandments?
+Answer 42. The essence of the ten commandments is to love the Lord our God with all our heart, with all our soul, with all our strength, and with all our mind, and to love everyone else as we love ourselves.
+
+Question 43. What introduces the ten commandments?
+Answer 43. These words introduce the ten commandments: "I am the Lord your God, who brought you out of Egypt, out of the land of slavery."
+
+Question 44. What does the introduction to the ten commandments teach us?
+Answer 44. The introduction to the ten commandments teaches us that, because God is Lord and is our God and redeemer, we must keep all His commandments.
+
+Question 45. What is the first commandment?
+Answer 45. The first commandment is: You shall have no other gods before me.
+
+Question 46. What does the first commandment require?
+Answer 46. The first commandment requires us to know and recognize God as the only true God and our God, and to worship and glorify Him accordingly.
+
+Question 47. What does the first commandment forbid?
+Answer 47. The first commandment forbids denying God or not worshipping and glorifying Him as the true God and our God. It also forbids giving worship and glory, which He alone deserves, to anyone or anything else.
+
+Question 48. What are we specifically taught in the first commandment by the words 'before me'?
+Answer 48. The words 'before me' in the first commandment teach us that God, who sees everything, notices and is very offended by the sin of having any other god.
+
+Question 49. What is the second commandment?
+Answer 49. The second commandment is: You shall not make for yourself an idol in the form of anything in heaven above or on the earth beneath or in the waters below. You shall not bow down to them or worship them; for I, the Lord your God, am a jealous God, punishing the children for the sin of the fathers to the third and fourth generation of those who hate me, but showing love to a thousand (generations) of those who love me and keep my commandments.
+
+Question 50. What does the second commandment require?
+Answer 50. The second commandment requires us to receive, respectfully perform, and preserve completely and purely all the regulations for religion and worship that God has established in His word.
+
+Question 51. What does the second commandment forbid?
+Answer 51. The second commandment forbids our worshipping God with images or in any other way not established in His word.
+
+Question 52. What are the reasons for the second commandment?
+Answer 52. The reasons for the second commandment are that God totally rules over us, that we belong to Him, and that He is eager to be worshipped correctly.
+
+Question 53. What is the third commandment?
+Answer 53. The third commandment is: You shall not misuse the name of the Lord your God, for the Lord will not hold anyone guiltless who misuses his name.
+
+Question 54. What does the third commandment require?
+Answer 54. The third commandment requires the holy and reverent use of God's names, titles, qualities, regulations, word, and works.
+
+Question 55. What does the third commandment forbid?
+Answer 55. The third commandment forbids our treating as unholy or abusing anything God uses to make Himself known.
+
+Question 56. What is the reason for the third commandment?
+Answer 56. The reason for the third commandment is that the Lord our God will not allow those who break this commandment to escape His righteous judgement, although they may escape punishment from men.
+
+Question 57. What is the fourth commandment?
+Answer 57. The fourth commandment is: Remember the Sabbath day by keeping it holy. Six days you shall labor and do all your work, but the seventh day is a Sabbath to the Lord your God. On it you shall not do any work, neither you, nor your son or daughter, nor your manservant or maidservant, nor your animals, nor the alien within your gates. For in six days the Lord made the heavens and the earth, the sea, and all that is in them, but he rested on the seventh day. Therefore the Lord blessed the Sabbath day and made it holy.
+
+Question 58. What does the fourth commandment require?
+Answer 58. The fourth commandment requires us to set apart to God the times He has established in His word - specifically one whole day out of every seven as a holy Sabbath to Him.
+
+Question 59. Which day of the week has God designated as the Sabbath?
+Answer 59. From the beginning of the world until the resurrection of Christ, God established the seventh day of the week as the Sabbath. From that time until the end of the world the first day of the week is the Christian Sabbath.
+
+Question 60. How do we keep the Sabbath holy?
+Answer 60. We keep the Sabbath holy by resting the whole day from worldly affairs or recreations, even ones that are lawful on other days. Except for necessary works or acts of mercy we should spend all our time publicly and privately worshipping God.
+
+Question 61. What does the fourth commandment forbid?
+Answer 61. The fourth commandment forbids failing to do or carelessly doing what we are supposed to do. It also forbids treating the day as unholy by loafing, by doing anything in itself sinful, or by unnecessary thinking, talking about, or working on our worldly affairs or recreations.
+
+Question 62. What are the reasons for the fourth commandment?
+Answer 62. The reasons for the fourth commandment are these: God allows us six days of the week to take care of our own affairs; He claims the seventh day as His own; He set the example; and He blesses the Sabbath.
+
+Question 63. What is the fifth commandment?
+Answer 63. The fifth commandment is: Honor your father and your mother, so that you may live long in the land the Lord your God is giving you.
+
+Question 64. What does the fifth commandment require?
+Answer 64. The fifth commandment requires us to respect and treat others, whether above, below, or equal to us, as their position or our relationship to them demands.
+
+Question 65. What does the fifth commandment forbid?
+Answer 65. The fifth commandment forbids being disrespectful to or not treating others as their position or relationship to us demands.
+
+Question 66. What is the reason for the fifth commandment?
+Answer 66. The reason for the fifth commandment is the promise of long life and prosperity, if these glorify God and are for the good of those who obey this commandment.
+
+Question 67. What is the sixth commandment?
+Answer 67. The sixth commandment is: You shall not murder.
+
+Question 68. What does the sixth commandment require?
+Answer 68. The sixth commandment requires making every lawful effort to preserve one's own life and the lives of others.
+
+Question 69. What does the sixth commandment forbid?
+Answer 69. The sixth commandment forbids taking one's own life or the lives of others unjustly or doing anything that leads to suicide or murder.
+
+Question 70. What is the seventh commandment?
+Answer 70. The seventh commandment is: You shall not commit adultery.
+
+Question 71. What does the seventh commandment require?
+Answer 71. The seventh commandment requires us and everyone else to keep sexually pure in heart, speech, and action.
+
+Question 72. What does the seventh commandment forbid?
+Answer 72. The seventh commandment forbids thinking, saying, or doing anything sexually impure.
+
+Question 73. What is the eighth commandment?
+Answer 73. The eighth commandment is: You shall not steal.
+
+Question 74. What does the eighth commandment require?
+Answer 74. The eighth commandment requires that we lawfully acquire and increase our own and others' money and possessions.
+
+Question 75. What does the eighth commandment forbid?
+Answer 75. The eighth commandment forbids anything that either does or may unjustly take away money or possessions from us or anyone else.
+
+Question 76. What is the ninth commandment?
+Answer 76. The ninth commandment is: You shall not give false testimony against your neighbor.
+
+Question 77. What does the ninth commandment require?
+Answer 77. The ninth commandment requires us to tell the truth and to maintain and promote it and our own and others' reputations, especially when testifying.
+
+Question 78. What does the ninth commandment forbid?
+Answer 78. The ninth commandment forbids anything that gets in the way of the truth or injures anyone's reputation.
+
+Question 79. What is the tenth commandment?
+Answer 79. The tenth commandment is: You shall not covet your neighbor's house. You shall not covet your neighbor's wife, or his manservant or maidservant, his ox or donkey, or anything that belongs to your neighbor.
+
+Question 80. What does the tenth commandment require?
+Answer 80. The tenth commandment requires us to be completely satisfied with our own status in life and to have a proper, loving attitude toward others and their possessions.
+
+Question 81. What does the tenth commandment forbid?
+Answer 81. The tenth commandment forbids any dissatisfaction with what belongs to us, envy or grief at the success of others, and all improper desire for anything that belongs to someone else.
+
+Question 82. Can anyone perfectly keep the commandments of God?
+Answer 82. Since the fall no ordinary man can perfectly keep the commandments of God in this life but breaks them every day in thought, word, and action.
+
+Question 83. Are all sins equally evil?
+Answer 83. In the eyes of God some sins in themselves are more evil than others, and some are more evil because of the harm that results from them.
+
+Question 84. What does every sin deserve?
+Answer 84. Every sin deserves God's anger and curse, both in this life and in the life to come.
+
+Question 85. What does God require from us to escape His anger and curse, which we deserve for our sin?
+Answer 85. To escape God's anger and curse, which we deserve for our sin, God requires from us faith in Jesus Christ and repentance unto life along with diligent involvement in all the external ways Christ uses to bring us the benefits of redemption.
+
+Question 86. What is faith in Jesus Christ?
+Answer 86. Faith in Jesus Christ is a saving grace, by which we receive and rest on Him alone for salvation, as He is offered to us in the gospel.
+
+Question 87. What is repentance unto life?
+Answer 87. Repentance unto life is a saving grace, by which a sinner, being truly aware of his sinfulness, understands the mercy of God in Christ, grieves for and hates his sins, and turns from them to God, fully intending and striving for a new obedience.
+
+Question 88. What are the ordinary, external ways Christ uses to bring us the benefits of redemption?
+Answer 88. The ordinary, external ways Christ uses to bring us the benefits of redemption are His regulations, particularly the word, sacraments, and prayer, all of which are made effective for the salvation of His chosen ones.
+
+Question 89. What makes the word effective for salvation?
+Answer 89. The Spirit of God causes the reading and especially the preaching of the word to convince and convert sinners and to build them up in holiness and comfort through faith to salvation.
+
+Question 90. How is the word to be read and heard in order to become effective for salvation?
+Answer 90. For the word to become effective for salvation, we must pay careful attention to it, prepare ourselves, and pray for understanding. We must also receive it with faith and love, treasure it in our hearts, and practice it in our lives.
+
+Question 91. How do the sacraments become effective means of salvation?
+Answer 91. The sacraments become effective means of salvation, not because of any special power in them or in the people who administer them, but rather by the blessing of Christ and the working of His Spirit in those who receive them by faith.
+
+Question 92. What is a sacrament?
+Answer 92. A sacrament is a holy regulation established by Christ, in which Christ and the benefits of the new covenant are represented, sealed, and applied to believers by physical signs.
+
+Question 93. What are the sacraments of the New Testament?
+Answer 93. The sacraments of the New Testament are baptism and the Lord's Supper.
+
+Question 94. What is baptism?
+Answer 94. The sacrament of baptism is a washing with water in the name of the Father, the Son, and the Holy Spirit, which is a sign and seal that we are joined to Christ, that we receive the benefits of the covenant of grace, and that we are engaged to be the Lord's.
+
+Question 95. Who should be baptized?
+Answer 95. Those who are not members of churches should not be baptized until they have publicly stated that they believe in Christ and will obey Him, but the infant children of church members should be baptized.
+
+Question 96. What is the Lord's Supper?
+Answer 96. The Lord's Supper is a sacrament in which bread and wine are given and received as Christ directed to proclaim His death. Those who receive the Lord's Supper in the right way share in His body and blood with all His benefits, not physically but by faith, and become spiritually stronger and grow in grace.
+
+Question 97. What is the right way to receive the Lord's Supper?
+Answer 97. The right way to receive the Lord's Supper is to examine whether we discern the Lord's body, whether our faith feeds on Him, and whether we have repentance, love, and a new obedience - so that we may not come in the wrong way and eat and drink judgement on ourselves.
+
+Question 98. What is prayer?
+Answer 98. Prayer is offering our desires to God in the name of Christ for things that agree with His will, confessing our sins, and thankfully recognising His mercies.
+
+Question 99. How does God direct us to pray?
+Answer 99. The whole word of God, but especially the Lord's prayer, which Christ taught His disciples, directs our prayers.
+
+Question 100. What does the beginning of the Lord's prayer teach us?
+Answer 100. The beginning of the Lord's prayer (Our Father in heaven) teaches us to draw near to God with completely holy reverence and confidence, as children to a father who is able and ready to help us. It also teaches that we should pray with and for others.
+
+Question 101. For what do we pray in the first request?
+Answer 101. In the first request (hallowed be your name) we pray that God will enable us and others to glorify Him in everything He uses to make Himself known and that He will work out everything to His own glory.
+
+Question 102. For what do we pray in the second request?
+Answer 102. In the second request (your kingdom come) we pray that Satan's kingdom may be destroyed, that the kingdom of grace may be advanced, with ourselves and others brought into and kept in it, and that the kingdom of glory may come quickly.
+
+Question 103. For what do we pray in the third request?
+Answer 103. In the third request (your will be done on earth as it is in heaven) we pray that by His grace God would make us have the capability and the will to know, obey, and submit to His will in everything, as the angels do in heaven.
+
+Question 104. For what do we pray in the fourth request?
+Answer 104. In the fourth request (Give us today our daily bread) we pray that we may receive an adequate amount of the good things in this life as a free gift of God and that with them we may enjoy His blessing.
+
+Question 105. For what do we pray in the fifth request?
+Answer 105. In the fifth request (Forgive us our debts, as we also have forgiven our debtors), encouraged by God's grace, which makes it possible for us sincerely to forgive others, we pray that for Christ's sake God would freely pardon all our sins.
+
+Question 106. For what do we pray in the sixth request?
+Answer 106. In the sixth request (And lead us not into temptation, but deliver us from the evil one) we pray that God would either keep us from being tempted to sin or support and deliver us when we are tempted.
+
+Question 107. What does the conclusion of the Lord's prayer teach us?
+Answer 107. The conclusion of the Lord's prayer (for yours is the kingdom and the power and the glory forever) teaches us to be encouraged only by God in our prayers and to praise Him by acknowledging that kingdom, power, and glory are His. To show that we want to be heard and have confidence that we are, we say "Amen".
+
 ## Children's Catechism
 
 CATECHISM FOR YOUNG CHILDREN
@@ -2507,33 +2844,47 @@ delete above header if no optional reading
 2. Q2
 3. Q3
 
-### Catechism
+## Catechism
 
 {%include "partials/catechism-picker.html" %}
 
-<div id="wsc">
+<div class="wsc-box" id="wsc">
 
-**WSC #X**
+<div class="wsc-old-box" id="wsc-old">
+
+**WSC #N**
 
 _Question text_
 
-Answer text.
+Answer text
 
-<div><small><i>(Prooftexts for catechism question)</i></small></div>
+<div><small><i>(semicolon-separated prooftexts)</i></small></div>
 
 </div>
 
-<div id="childrens">
+<div class="wsc-mod-box" id="wsc-mod">
+
+**WSC #N**
+
+_Question text_
+
+Answer text
+
+</div>
+
+</div>
+
+<div class="childrens-box" id="childrens">
 
 **Children's Catechism X-Y**
 
 _Question text_
 
-Answer text.
+Answer text
 
 _Question text_
 
-Answer text.
+Answer text
 
 </div>
 
@@ -2603,33 +2954,47 @@ delete above header if no optional reading
 2. Q2
 3. Q3
 
-### Catechism
+## Catechism
 
 {%include "partials/catechism-picker.html" %}
 
-<div id="wsc">
+<div class="wsc-box" id="wsc">
 
-**WSC #X**
+<div class="wsc-old-box" id="wsc-old">
+
+**WSC #N**
 
 _Question text_
 
-Answer text.
+Answer text
 
-<div><small><i>(Prooftexts for catechism question)</i></small></div>
+<div><small><i>(semicolon-separated prooftexts)</i></small></div>
 
 </div>
 
-<div id="childrens">
+<div class="wsc-mod-box" id="wsc-mod">
+
+**WSC #N**
+
+_Question text_
+
+Answer text
+
+</div>
+
+</div>
+
+<div class="childrens-box" id="childrens">
 
 **Children's Catechism X-Y**
 
 _Question text_
 
-Answer text.
+Answer text
 
 _Question text_
 
-Answer text.
+Answer text
 
 </div>
 
@@ -2699,33 +3064,47 @@ delete above header if no optional reading
 2. Q2
 3. Q3
 
-### Catechism
+## Catechism
 
 {%include "partials/catechism-picker.html" %}
 
-<div id="wsc">
+<div class="wsc-box" id="wsc">
 
-**WSC #X**
+<div class="wsc-old-box" id="wsc-old">
+
+**WSC #N**
 
 _Question text_
 
-Answer text.
+Answer text
 
-<div><small><i>(Prooftexts for catechism question)</i></small></div>
+<div><small><i>(semicolon-separated prooftexts)</i></small></div>
 
 </div>
 
-<div id="childrens">
+<div class="wsc-mod-box" id="wsc-mod">
+
+**WSC #N**
+
+_Question text_
+
+Answer text
+
+</div>
+
+</div>
+
+<div class="childrens-box" id="childrens">
 
 **Children's Catechism X-Y**
 
 _Question text_
 
-Answer text.
+Answer text
 
 _Question text_
 
-Answer text.
+Answer text
 
 </div>
 
@@ -2795,33 +3174,47 @@ delete above header if no optional reading
 2. Q2
 3. Q3
 
-### Catechism
+## Catechism
 
 {%include "partials/catechism-picker.html" %}
 
-<div id="wsc">
+<div class="wsc-box" id="wsc">
 
-**WSC #X**
+<div class="wsc-old-box" id="wsc-old">
+
+**WSC #N**
 
 _Question text_
 
-Answer text.
+Answer text
 
-<div><small><i>(Prooftexts for catechism question)</i></small></div>
+<div><small><i>(semicolon-separated prooftexts)</i></small></div>
 
 </div>
 
-<div id="childrens">
+<div class="wsc-mod-box" id="wsc-mod">
+
+**WSC #N**
+
+_Question text_
+
+Answer text
+
+</div>
+
+</div>
+
+<div class="childrens-box" id="childrens">
 
 **Children's Catechism X-Y**
 
 _Question text_
 
-Answer text.
+Answer text
 
 _Question text_
 
-Answer text.
+Answer text
 
 </div>
 
@@ -2891,33 +3284,47 @@ delete above header if no optional reading
 2. Q2
 3. Q3
 
-### Catechism
+## Catechism
 
 {%include "partials/catechism-picker.html" %}
 
-<div id="wsc">
+<div class="wsc-box" id="wsc">
 
-**WSC #X**
+<div class="wsc-old-box" id="wsc-old">
+
+**WSC #N**
 
 _Question text_
 
-Answer text.
+Answer text
 
-<div><small><i>(Prooftexts for catechism question)</i></small></div>
+<div><small><i>(semicolon-separated prooftexts)</i></small></div>
 
 </div>
 
-<div id="childrens">
+<div class="wsc-mod-box" id="wsc-mod">
+
+**WSC #N**
+
+_Question text_
+
+Answer text
+
+</div>
+
+</div>
+
+<div class="childrens-box" id="childrens">
 
 **Children's Catechism X-Y**
 
 _Question text_
 
-Answer text.
+Answer text
 
 _Question text_
 
-Answer text.
+Answer text
 
 </div>
 
@@ -2987,33 +3394,47 @@ delete above header if no optional reading
 2. Q2
 3. Q3
 
-### Catechism
+## Catechism
 
 {%include "partials/catechism-picker.html" %}
 
-<div id="wsc">
+<div class="wsc-box" id="wsc">
 
-**WSC #X**
+<div class="wsc-old-box" id="wsc-old">
+
+**WSC #N**
 
 _Question text_
 
-Answer text.
+Answer text
 
-<div><small><i>(Prooftexts for catechism question)</i></small></div>
+<div><small><i>(semicolon-separated prooftexts)</i></small></div>
 
 </div>
 
-<div id="childrens">
+<div class="wsc-mod-box" id="wsc-mod">
+
+**WSC #N**
+
+_Question text_
+
+Answer text
+
+</div>
+
+</div>
+
+<div class="childrens-box" id="childrens">
 
 **Children's Catechism X-Y**
 
 _Question text_
 
-Answer text.
+Answer text
 
 _Question text_
 
-Answer text.
+Answer text
 
 </div>
 
