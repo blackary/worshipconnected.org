@@ -128,6 +128,11 @@ body pre[class*="language-"] {
     transition: visibility 0.3s ease;
 }
 
+/* hide the wsc toggle if the modern version isn't present. */
+body:not(:has(#wsc-mod)) #wsc-toggle-container {
+  display: none;
+}
+
 /* for ACTIVE state */
 .toggle-checkbox-wrapper:has(#toggle:not(:checked)) .drawer {
     grid-template-rows: 1fr;

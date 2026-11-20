@@ -40,19 +40,27 @@
         const wscToggleContainer = document.getElementById("wsc-toggle-container")
         const wscToggle = document.getElementById("wsc-toggle");
 
+        let wscModPresent = true;
+
+        if (!wscMod) {
+            wscModPresent = false;
+        }
+
         // updates visibility between WSC and Children's 
         function updateVisibility() {
             childrens.hidden = !toggle.checked;
             wsc.hidden = toggle.checked;
 
             wscToggleContainer.hidden = wsc.hidden;
-            console.log(`WSC toggle hidden: ${wscToggle.hidden}`);
         }
 
         // switches between WSC Old and WSC Modern English
         function switchShorterCatechsim() {
-            wscOld.hidden = wscToggle.checked;
-            wscMod.hidden = !wscToggle.checked;
+            // need both versions of wsc present to do this
+            if (wscModPresent) {
+                wscOld.hidden = wscToggle.checked;
+                wscMod.hidden = !wscToggle.checked;
+            }
         }
 
         // Set the state of the toggle based on localStorage, if it exists
